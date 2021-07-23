@@ -8,13 +8,18 @@ header {
   background: #52a3ff;
   color: #fff;
   width: 100%;
-  padding-top: 50px;
 }
 
 h1 {
   margin-top: 0;
   font-size: 43px;
   font-weight: normal;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 15px;
 }
 
 a {
@@ -24,7 +29,8 @@ a {
 
 #header-inner {
   width: 900px;
-  height: 260px;
+  height: 270px;
+  padding-top: 50px;
   margin: 0 auto;
   text-align: center;
 }
@@ -32,17 +38,20 @@ a {
 .btn {
   display: inline-block; /* marginのため */
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.2);
   padding: 15px;
   cursor: pointer;
   user-select: none;
-  margin-top: 30px;
   font-family: futura;
   text-decoration: none;
+  margin-top: 30px;
+}
+
+#download-btn-top {
+  background: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
 
-.btn:hover {
+#download-btn-top:hover {
   background: rgba(255, 255, 255, 0.25);
 }
 
@@ -67,6 +76,20 @@ a {
 
 .desc-item > p {
   padding-top: 70px;
+}
+
+#page-bottom {
+  margin: 20px 0 80px 0;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ccc;
+}
+
+#download-btn-bottom {
+  background: #52a3ff;
+  color: #fff;
+  margin-top: 35px;
 }
 
 footer {
