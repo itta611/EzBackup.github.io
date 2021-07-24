@@ -58,7 +58,7 @@ a {
 .screenshot {
   display: block;
   user-select: none;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #screenshot-top {
@@ -70,11 +70,16 @@ a {
   margin: 0 auto;
 }
 
-.desc-item {
+.desc-item > h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.desc-item-inner {
   display: flex;
 }
 
-.desc-item > p {
+.desc-item-inner > p {
   padding-top: 70px;
 }
 
